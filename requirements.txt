@@ -1,0 +1,5 @@
+apache-airflow>=2.8.0
+dbt-core>=1.7.0
+dbt-postgres>=1.7.0
+pytest>=8.2.0
+ruff>=0.4.0

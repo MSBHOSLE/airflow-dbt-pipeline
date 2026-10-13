@@ -1,0 +1,15 @@
+name: 'ecommerce_dw'
+version: '1.0.0'
+config-version: 2
+
+profile: 'ecommerce_dw'
+
+model-paths: ["models"]
+test-paths: ["tests"]
+
+models:
+  ecommerce_dw:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
